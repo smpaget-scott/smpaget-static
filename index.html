@@ -914,7 +914,13 @@
               ease: "power1.out"
             }
           );
-
+          
+          /* Pause before moving to the next scene */
+          
+          timeline.to({}, {
+          	duration: 1.5
+          	}
+          );
 
           /* Crossfade into the next scene */
 
